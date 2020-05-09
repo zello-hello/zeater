@@ -16,6 +16,7 @@ public class Message {
 
     public Message() {
     }
+
     public Message(String text, String tag) {
         this.text = text;
         this.tag = tag;
