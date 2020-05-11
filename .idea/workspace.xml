@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec60da2-b98a-408c-8618-920757d8c64d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/repos/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/test.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/test2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/zeater/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/zeater/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/repos/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/zeater/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/zeater/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/zeater/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/greeting.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -153,7 +147,7 @@
       <workItem from="1588693447636" duration="1317000" />
       <workItem from="1588695578744" duration="1114000" />
       <workItem from="1588697643913" duration="15510000" />
-      <workItem from="1588957461690" duration="12526000" />
+      <workItem from="1588957461690" duration="17729000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1588697737960</created>
@@ -176,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589057627996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="have put security and change architecture of project">
+      <created>1589125162512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589125162512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +188,8 @@
     <MESSAGE value="Crearing MySQL DataBase and form for messages" />
     <MESSAGE value="Creating MySQL DataBase and form for messages" />
     <MESSAGE value="resolved bugs with &quot;tag&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolved bugs with &quot;tag&quot;" />
+    <MESSAGE value="have put security and change architecture of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="have put security and change architecture of project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" width="811" height="669" key="#Project_Structure" timestamp="1589058154918">
@@ -198,65 +200,65 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="252" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1588861587683" />
-    <state x="421" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588695820205">
+    <state x="421" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589130572557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1588695820205" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1589120329284">
+    <state x="421" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1589130572557" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1589191801509">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1589120329284" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1589057627659">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1589191801509" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1589125162234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1589057627659" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589124973622">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1589125162234" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589193281456">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589124902359" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589193281456" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1589124973622" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1588937970189" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589124973621">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589193281455">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589124902358" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589193281455" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1589124973621" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1588937970188" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589124973620">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589193281454">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589124902358" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589193281454" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.798" timestamp="1589124828386" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1589124973620" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1588937970187" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589124973622">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589193281456">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589124902359" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589193281456" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1589124973622" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1588937970188" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1589124973626">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1589193281458">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589124902361" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589193281458" />
     <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1589124973626" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1588937970190" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1589124973625">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1589193281457">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589124902360" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589193281457" />
     <state width="1398" height="245" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1589124973624" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1588937970189" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1589124973624">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1589193281457">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589124902360" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589193281457" />
     <state width="1398" height="245" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1589124973624" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1588937970189" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1589124973625">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1589193281457">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589124902361" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589193281457" />
     <state width="1398" height="245" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1589124973625" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1588937970190" />
     <state width="1398" height="303" key="GridCell.Tab.2.bottom" timestamp="1589119242982">
@@ -299,9 +301,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1588697685520" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589123474820">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589191788834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589123474820" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589191788834" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/zeater/controller/MainController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

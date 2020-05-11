@@ -1,5 +1,13 @@
 package com.example.zeater.domain;
 
-public enum Role { //enum - это перчисления
+import org.springframework.security.core.GrantedAuthority;
+
+public enum Role implements GrantedAuthority { //enum - это перчисления
     USER;
+
+
+    @Override
+    public String getAuthority() {
+        return name();
+    }
 }
